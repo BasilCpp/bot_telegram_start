@@ -8,7 +8,7 @@ session.post('http://workspace.nw/#', {
      'remember': 1,
 })
 
-res = requests.get('http://workspace.nw/index.php?do=static&page=nwlink')
+res = requests.get('http://workspace.nw/index.php?do=static&page=nwlink#')
 #print(res)
 
 print(res.headers['content-type'])
